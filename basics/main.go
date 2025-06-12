@@ -71,4 +71,21 @@ func main() {
 	default:
 		fmt.Println("Number is greater than 20")
 	}
+
+	checkType(40)
+	checkType(40.09343)
+	checkType("pdp0w")
+}
+
+func checkType(x interface{}) { // x interface{} meaning it can take any data types
+	switch x.(type) {
+	case int:
+		fmt.Println("it is int")
+	case float64:
+		fmt.Println("it is float64")
+	case string:
+		fmt.Println("it is string")
+	default:
+		fmt.Println("unknown")
+	}
 }
