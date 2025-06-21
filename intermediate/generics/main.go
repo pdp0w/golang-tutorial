@@ -74,3 +74,17 @@ func main() {
 	stringStack.printAll()
 
 }
+
+/*
+
+Generics :
+- benifits of generics :
+	- Code reusability
+	- Type safety
+	- Performance
+- Consideration :
+	- Type consideration
+	- Documentation
+	- Testing
+
+*/
